@@ -265,6 +265,217 @@
       ],
       "ast": [
         "aggregate/ast/0fe6f0ff6d52e9f91d4071199bd0b24bd46f3d35/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/0fe6f0ff6d52e9f91d4071199bd0b24bd46f3d35.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "divan",
+          "ecosystem": "CARGO",
+          "version": "0.1.16",
+          "githubOrg": "nvzqz",
+          "githubRepo": "divan",
+          "githubCommit": "9800477791fa648a8212a7faf4967a2bc7483522",
+          "githubTag": "v0.1.16",
+          "githubUrl": "https://github.com/nvzqz/divan",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/divan-0.1.16/src/lib.rs"
+        },
+        {
+          "packageName": "proptest",
+          "ecosystem": "CARGO",
+          "version": "1.7.0",
+          "githubOrg": "proptest-rs",
+          "githubRepo": "proptest",
+          "githubCommit": "c073d523dcecb5fe3e38fa7ec30ed3df06441cc1",
+          "githubTag": "v1.7.0",
+          "githubUrl": "https://github.com/proptest-rs/proptest",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proptest-1.7.0/src/sugar.rs"
+        },
+        {
+          "packageName": "cansi",
+          "ecosystem": "CARGO",
+          "version": "2.2.1",
+          "githubOrg": "kurtlawrence",
+          "githubRepo": "cansi",
+          "githubUrl": "https://github.com/kurtlawrence/cansi",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cansi-2.2.1/src/lib.rs"
+        },
+        {
+          "packageName": "html-escape",
+          "ecosystem": "CARGO",
+          "version": "0.2.13",
+          "githubOrg": "magiclen",
+          "githubRepo": "html-escape",
+          "githubCommit": "14ec5e3d4722a999425c2fe2a55e425ea3c1d8dc",
+          "githubTag": "v0.2.13",
+          "githubUrl": "https://github.com/magiclen/html-escape",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/html-escape-0.2.13/src/lib.rs"
+        },
+        {
+          "packageName": "roff",
+          "ecosystem": "CARGO",
+          "version": "0.2.1",
+          "githubOrg": "rust-cli",
+          "githubRepo": "roff-rs",
+          "githubCommit": "f2284b904c1aaed8ed9302c6c725e18320cd6bb4",
+          "githubTag": "v0.2.1",
+          "githubUrl": "https://github.com/rust-cli/roff-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/roff-0.2.1/src/lib.rs"
+        },
+        {
+          "packageName": "lexopt",
+          "ecosystem": "CARGO",
+          "version": "0.3.1",
+          "githubOrg": "blyxxyz",
+          "githubRepo": "lexopt",
+          "githubCommit": "d00be2711096c088cf198650d8853b2420516be3",
+          "githubTag": "v0.3.1",
+          "githubUrl": "https://github.com/blyxxyz/lexopt",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lexopt-0.3.1/src/lib.rs"
+        },
+        {
+          "packageName": "yansi",
+          "ecosystem": "CARGO",
+          "version": "1.0.1",
+          "githubOrg": "SergioBenitez",
+          "githubRepo": "yansi",
+          "githubCommit": "3e35184fc181fef63bc11dedb22413e821168255",
+          "githubTag": "v1.0.1",
+          "githubUrl": "https://github.com/SergioBenitez/yansi",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yansi-1.0.1/src/lib.rs"
+        },
+        {
+          "packageName": "ansi_term",
+          "ecosystem": "CARGO",
+          "version": "0.12.1",
+          "githubOrg": "ogham",
+          "githubRepo": "rust-ansi-term",
+          "githubCommit": "ff7eba98d55ad609c7fcc8c7bb0859b37c7545cc",
+          "githubTag": "v0.12.1",
+          "githubUrl": "https://github.com/ogham/rust-ansi-term",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ansi_term-0.12.1/src/lib.rs"
+        },
+        {
+          "packageName": "strip-ansi-escapes",
+          "ecosystem": "CARGO",
+          "version": "0.2.1",
+          "githubOrg": "luser",
+          "githubRepo": "strip-ansi-escapes",
+          "githubUrl": "https://github.com/luser/strip-ansi-escapes",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/strip-ansi-escapes-0.2.1/src/lib.rs"
+        },
+        {
+          "packageName": "crossterm",
+          "ecosystem": "CARGO",
+          "version": "0.29.0",
+          "githubOrg": "crossterm-rs",
+          "githubRepo": "crossterm",
+          "githubUrl": "https://github.com/crossterm-rs/crossterm",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossterm-0.29.0/src/lib.rs"
+        },
+        {
+          "packageName": "is_terminal_polyfill",
+          "ecosystem": "CARGO",
+          "version": "1.48.1",
+          "githubOrg": "polyfill-rs",
+          "githubRepo": "is_terminal_polyfill",
+          "githubCommit": "f59342bd129f847bb2481eaf3671d5f08b670d4c",
+          "githubTag": "v1.48.1",
+          "githubUrl": "https://github.com/polyfill-rs/is_terminal_polyfill",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/is_terminal_polyfill-1.48.1/src/lib.rs"
+        },
+        {
+          "packageName": "snapbox",
+          "ecosystem": "CARGO",
+          "version": "0.6.23",
+          "githubOrg": "assert-rs",
+          "githubRepo": "snapbox",
+          "githubUrl": "https://github.com/assert-rs/snapbox/",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snapbox-0.6.23/src/lib.rs"
+        },
+        {
+          "packageName": "termcolor",
+          "ecosystem": "CARGO",
+          "version": "1.4.1",
+          "githubOrg": "BurntSushi",
+          "githubRepo": "termcolor",
+          "githubCommit": "71f0921f1eeceda85487098588a1602979d52493",
+          "githubTag": "1.4.1",
+          "githubUrl": "https://github.com/BurntSushi/termcolor",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/termcolor-1.4.1/src/lib.rs"
+        },
+        {
+          "packageName": "owo-colors",
+          "ecosystem": "CARGO",
+          "version": "4.0.0",
+          "githubOrg": "owo-colors",
+          "githubRepo": "owo-colors",
+          "githubCommit": "1d5eaf2ca6e108bdb411c5d9561c5e6d6a2a9630",
+          "githubTag": "v4.0.0",
+          "githubUrl": "https://github.com/owo-colors/owo-colors",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owo-colors-4.0.0/src/lib.rs"
+        },
+        {
+          "packageName": "vte_generate_state_changes",
+          "ecosystem": "CARGO",
+          "version": "0.1.2",
+          "githubOrg": "alacritty",
+          "githubRepo": "vte",
+          "githubCommit": "5509849473c7549c95b6a3ef87af8075c50d5da7",
+          "githubTag": "v0.1.2",
+          "githubUrl": "https://github.com/alacritty/vte",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vte_generate_state_changes-0.1.2/src/lib.rs"
+        },
+        {
+          "packageName": "codegenrs",
+          "ecosystem": "CARGO",
+          "version": "3.0.0",
+          "githubOrg": "crate-ci",
+          "githubRepo": "codegenrs",
+          "githubCommit": "2b2a6fe734d50dadeb8a079b6577a0b815234c81",
+          "githubTag": "v3.0.0",
+          "githubUrl": "https://github.com/crate-ci/codegenrs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/codegenrs-3.0.0/src/lib.rs"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.3.24",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubCommit": "88cf306216de20fbce84bbe7aae230824f972042",
+          "githubTag": "v4.3.24",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap-4.3.24/src/lib.rs"
+        },
+        {
+          "packageName": "unicode-width",
+          "ecosystem": "CARGO",
+          "version": "0.2.2",
+          "githubOrg": "unicode-rs",
+          "githubRepo": "unicode-width",
+          "githubCommit": "9d98411769fe13c7c18cab0b3fbbab29ba8350ea",
+          "githubTag": "v0.2.2",
+          "githubUrl": "https://github.com/unicode-rs/unicode-width",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-width-0.2.2/src/lib.rs"
+        }
       ]
     },
     {

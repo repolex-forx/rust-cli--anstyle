@@ -1,0 +1,29 @@
+[2026-11-22T04:43:21Z] === ENRICH ITERATION 2 START | repo=rust-cli/anstyle sha=0fe6f0ff ===
+[2026-11-22T04:43:21Z] [iter=2] PHASE START: enrich repo=rust-cli/anstyle sha=0fe6f0ff runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0fe6f0ff-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0fe6f0ff6d52e9f91d4071199bd0b24bd46f3d35.nq.gz
+[2026-11-22T04:43:21Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T04:43:25Z] [iter=2] AST store loaded triples=448142 load_secs=3 mem_mb=662 MB
+[2026-11-22T04:43:25Z] [iter=2] Step 2: Finding LSP targets mem_mb=662 MB
+[2026-11-22T04:43:25Z] [iter=2] LSP targets found call_sites=3459 imports=89 extends=0 implements=50 secs=1
+[2026-11-22T04:43:26Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=662 MB
+[2026-11-22T04:43:28Z] [iter=2] Position index built positions=28019 nodes_with_types=35838 secs=2 mem_mb=662 MB
+[2026-11-22T04:43:28Z] [iter=2] Step 3: Starting LSP resolution mem_mb=662 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T04:43:28Z] [iter=2] Resolving target type target_type=call_site count=3459
+[2026-11-22T04:44:47Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=1 resolved=278 errors=0 current=crates/anstyle-parse/examples/parselog.rs
+[2026-11-22T04:45:31Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=5 resolved=608 errors=0 current=crates/anstyle-roff/src/styled_str.rs
+[2026-11-22T04:46:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=8 resolved=1094 errors=0 current=crates/anstyle/src/color.rs
+[2026-11-22T04:46:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=9 resolved=1342 errors=0 current=crates/anstyle/src/effect.rs
+[2026-11-22T04:47:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.0 files_done=12 resolved=1576 errors=0 current=crates/anstream/src/adapter/wincon.rs
+[2026-11-22T04:47:58Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.6 files_done=15 resolved=1820 errors=0 current=crates/anstyle-parse/src/lib.rs
+[2026-11-22T04:48:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=19 resolved=2117 errors=0 current=crates/colorchoice/src/lib.rs
+[2026-11-22T04:49:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=27 resolved=2507 errors=0 current=crates/anstyle-wincon/examples/set-wincon.rs
+[2026-11-22T04:49:49Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=33 resolved=2728 errors=0 current=crates/anstream/src/strip.rs
+[2026-11-22T04:50:23Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.0 files_done=42 resolved=3018 errors=0 current=crates/anstyle-parse/src/state/definitions.rs
+[2026-11-22T04:50:39Z] [iter=2] Target type resolved target_type=call_site resolved=3201 errors=0 secs=430 mem_mb=662 MB
+[2026-11-22T04:50:39Z] [iter=2] Resolving target type target_type=import_statement count=89
+[2026-11-22T04:50:54Z] [iter=2] Target type resolved target_type=import_statement resolved=66 errors=0 secs=15 mem_mb=662 MB
+[2026-11-22T04:50:54Z] [iter=2] Resolving target type target_type=implements_clause count=50
+[2026-11-22T04:50:55Z] [iter=2] HEARTBEAT target_type=implements_clause elapsed_min=7.6 files_done=0 resolved=0 errors=0 current=crates/anstyle-parse/src/lib.rs
+[2026-11-22T04:51:07Z] [iter=2] Target type resolved target_type=implements_clause resolved=43 errors=0 secs=13 mem_mb=662 MB
+[2026-11-22T04:55:06Z] [iter=2] Step 5: Writing final enrichment file triples=36311
+[2026-11-22T04:55:06Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/0fe6f0ff6d52e9f91d4071199bd0b24bd46f3d35.nq.gz size_kb=699
+[2026-11-22T04:55:06Z] [iter=2] PHASE END: enrich elapsed_s=705 elapsed_min=11.8 total_triples=36311
