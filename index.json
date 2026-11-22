@@ -1,5 +1,16 @@
 {
   "org": "rust-cli",
   "repo": "anstyle",
-  "versions": []
+  "versions": [
+    {
+      "commit": "0fe6f0ff6d52e9f91d4071199bd0b24bd46f3d35",
+      "tag": "v1.0.14",
+      "parsed_at": "2026-11-22T04:56:57.234313+00:00"
+    },
+    {
+      "commit": "2a2bebb1995eee2146ade598a1255c2f78f28547",
+      "tag": "v1.0.12",
+      "parsed_at": "2026-05-10T09:36:04.732027+00:00"
+    }
+  ]
 }

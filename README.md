@@ -6,29 +6,27 @@ RDF knowledge graph data for [rust-cli/anstyle](https://github.com/rust-cli/anst
 
 ## How to use this data
 
-The easiest way to get started is to install the [lexq](https://github.com/repolex-ai/lexq) query tool using [uv](https://docs.astral.sh/uv/getting-started/installation/).
-
-If you have uv installed, just copy/paste this into your terminal:
+The easiest way to get started is to install the [rlex](https://github.com/repolex-ai/rlex) query tool:
 
 ```bash
-uv tool install git+https://github.com/repolex-ai/lexq
+cargo install --git https://github.com/repolex-ai/rlex
 ```
 
-This installs lexq onto your system, in your user context. Verify the install:
+Verify the install:
 
 ```bash
-lexq --help
+rlex --help
 ```
 
-**lexq is designed to be used primarily by LLMs in a terminal.** Start up your favorite LLM and ask it to use the lexq tool. It's that easy!
+**rlex is designed to be used primarily by LLMs in a terminal.** Start up your favorite AI assistant and ask it to use rlex. It handles the SPARQL — you just ask questions in plain English.
 
 To load this repo's data:
 
 ```bash
-lexq download rust-cli/anstyle
+rlex download rust-cli/anstyle
 ```
 
-This will automatically download essential data files from the last parsed commit. Consult `lexq --moreinfo` for other options, including downloading multiple commits, blobs, etc.
+Consult `rlex --help` for other options, including SPARQL queries, HTTP server, and interactive visualization.
 
 ## Data structure
 
@@ -46,6 +44,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   │   ├── 0fe6f0ff6d52e9f91d4071199bd0b24bd46f3d35.nq.gz
 │   │   └── 2a2bebb1995eee2146ade598a1255c2f78f28547.nq.gz
 │   └── repolex
+│       ├── 0fe6f0ff6d52e9f91d4071199bd0b24bd46f3d35
+│       │   └── chunk-001.nq.gz
 │       └── 2a2bebb1995eee2146ade598a1255c2f78f28547
 │           └── chunk-001.nq.gz
 └── blob
@@ -242,10 +242,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── bfe56728f7d30fef41703d9cf72a2523953dd480.nq.gz
     ├── c2114919832ca8dfbd9323cfc44220774a416942.nq.gz
     ├── c24706795dee6e968bcc481b18a5578974ee8926.nq.gz
-    ├── c2fa3fb0177275094867f76865d9ffbc3039f45b.nq.gz
-    └── c63405146fdb774a37d20eac77bc5a9bf5bd29b5.nq.gz
+    └── c2fa3fb0177275094867f76865d9ffbc3039f45b.nq.gz
 
-9 directories, 200 files
+10 directories, 200 files
 ```
 
 | Directory | What it contains |
@@ -259,10 +258,11 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 | `branch/` | Branch metadata. |
 | `tag/` | Tag metadata. |
 | `filetree/` | File tree snapshots per commit (which files existed and their blob SHAs). |
+| `audit/` | Code architecture and graph audit reports per commit. |
 
 ## Source repository
 
 [rust-cli/anstyle](https://github.com/rust-cli/anstyle)
 
 ---
-*Parsed on 2026-05-10 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*
